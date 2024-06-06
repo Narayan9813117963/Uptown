@@ -2,11 +2,11 @@ window.addEventListener('scroll', function() {
   var navbar = document.querySelector('.navbar'); // Use querySelector instead of getElementById
   if (window.scrollY > 100) {
     navbar.classList.add('fixed');
-    navWrapper.style.opacity = "1";
+    navbar.style.opacity = "1";
   
   } else {
     navbar.classList.remove('fixed');
-    navWrapper.style.opacity = "1";
+    navbar.style.opacity = "1";
   }
 });
 
