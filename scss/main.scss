@@ -720,9 +720,10 @@ a {
     padding-bottom: 50px;
   }
   .navbar .logo{
-    width: 36px;
+    width: 80%;
+    display: block;
     img{
-      transform: scale(.8);
+      width: 100%;
     }
   }
   .banner-text{

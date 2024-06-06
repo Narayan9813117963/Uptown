@@ -12607,10 +12607,11 @@ a {
     padding-bottom: 50px;
   }
   .navbar .logo {
-    width: 36px;
+    width: 80%;
+    display: block;
   }
   .navbar .logo img {
-    transform: scale(0.8);
+    width: 100%;
   }
   .banner-text {
     padding-left: 0 !important;
