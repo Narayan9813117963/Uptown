@@ -649,6 +649,12 @@ a {
       button {
         width: fit-content;
         color: $text-color;
+        border: none;
+        &:focus{
+          outline: none;
+          border: none;
+          box-shadow: none
+        }
         span {
           filter: invert(1);
         }
@@ -710,6 +716,15 @@ a {
   .section-bottom-pad {
     padding-bottom: 50px;
   }
+  .banner-text{
+    padding-left: 0 !important;
+  }
+  .store{
+    .head-text{
+      margin: 0 !important;
+    }
+  }
+
   .contact-input {
     width: 100% !important;
   }

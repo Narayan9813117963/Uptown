@@ -12546,6 +12546,12 @@ a {
     width: -moz-fit-content;
     width: fit-content;
     color: #fff;
+    border: none;
+  }
+  .navbar .row button:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
   }
   .navbar .row button span {
     filter: invert(1);
@@ -12596,6 +12602,12 @@ a {
   }
   .section-bottom-pad {
     padding-bottom: 50px;
+  }
+  .banner-text {
+    padding-left: 0 !important;
+  }
+  .store .head-text {
+    margin: 0 !important;
   }
   .contact-input {
     width: 100% !important;
