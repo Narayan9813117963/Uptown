@@ -12588,6 +12588,9 @@ a {
   }
 }
 @media (max-width: 600px) {
+  h1, .h1 {
+    font-size: 36px;
+  }
   .custom-container-sm {
     width: 100%;
   }
@@ -12602,6 +12605,12 @@ a {
   }
   .section-bottom-pad {
     padding-bottom: 50px;
+  }
+  .navbar .logo {
+    width: 36px;
+  }
+  .navbar .logo img {
+    transform: scale(0.8);
   }
   .banner-text {
     padding-left: 0 !important;
