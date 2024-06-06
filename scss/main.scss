@@ -23,7 +23,7 @@ $h1-font-size: 48px;
 $h2-font-size: 32px;
 $h3-font-size: 22px;
 $h4-font-size: 16px;
-$p-font-size: 18px;
+$p-font-size: 17px;
 $global-sec-pad: 100px;
 
 body {
@@ -728,19 +728,23 @@ a {
   .banner-text{
     padding-left: 0 !important;
   }
+  .ingred-img{
+    width: 100% !important;
+  } 
   .store{
     .head-text{
       margin: 0 !important;
     }
+    .col-lg-6:nth-child(2){
+      padding-top: 50px;
+    }
+    .slider-store-btn {
+      right: 18% !important;
+      top: 60px !important;
+    }
   }
-
   .contact-input {
     width: 100% !important;
   }
 }
-@media (max-width: 500px) {
-  .slider-store-btn {
-    right: 18% !important;
-    top: 17px !important;
-  }
-}
+
