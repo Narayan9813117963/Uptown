@@ -4,7 +4,7 @@
 /////////////////////////////////////////////////////////////////
 
 // project constants
-const projectBaseUrl = "http://www.stanley-park.com/"; // using vhost
+const projectBaseUrl = "http://tenshima.local.com"; // using vhost
 
 // project paths for watch cmds
 var proxyWatchFrontend = projectBaseUrl;
@@ -90,7 +90,7 @@ function reload() {
 function watch() {
 	browserSync.init({
 		proxy: proxyWatchFrontend,
-		online: false,
+		online: true,
 		port: 3000,
 		notify: false
 	});

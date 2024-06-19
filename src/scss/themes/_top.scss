@@ -1,0 +1,420 @@
+.hero-bg {
+  background-image: url(../../images/banner-bg.jpg);
+  background-position: center center;
+
+  .banner {
+    padding-top: 232px;
+
+    .banner-text {
+      h1 {
+        span {
+          color: $primary-color;
+        }
+      }
+
+      .time-location {
+        display: flex;
+        gap: 20px;
+        padding: 30px 0;
+
+        p {
+          i {
+            padding-right: 8px;
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.about-us {
+  .about-wrapper {
+    .row {
+      background-color: $secondary-bg-color;
+
+      .about-text {
+        padding: 20px 60px;
+
+        p {
+          padding: 10px 0;
+        }
+
+        button {
+          @include button-styles(none, none, $primary-color);
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+.why-choose {
+  .why-choose-wrapper {
+    text-align: center;
+
+    .service-wrapper {
+      .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+
+        .service-icon {
+          margin-bottom: 16px;
+
+          figure {
+            max-width: 72px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.dishes {
+  background-image: url(../../images/veg-bg.png);
+  background-position: right;
+  background-size: 600px;
+  background-position-y: 0;
+  background-repeat: no-repeat;
+
+  .dishes-head {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .dish-categories {
+    .cat-links {
+      margin: 20px 0;
+      display: flex;
+      width: 35%;
+      justify-content: space-between;
+
+      button {
+        color: #fff;
+
+        &.active {
+          color: $primary-color;
+        }
+      }
+    }
+
+    .cat-content {
+      .dish-content {
+        .dish-content-wrapper {
+          background-color: $text-color;
+          border-radius: 10px;
+          overflow: hidden;
+
+          img {
+            width: 100%;
+            height: 270px;
+            object-fit: cover;
+          }
+
+          .dish-detail {
+            padding: 15px;
+
+            .dish-star-name {
+              display: flex;
+              justify-content: space-between;
+              align-items: self-end;
+
+              h4 {
+                color: #000;
+              }
+            }
+
+            p {
+              color: #23222775;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.ingred {
+  background-image: url(../../images/veg-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: 130px;
+  background-size: 500px;
+
+  .custom-container-sm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ingred-head {
+    text-align: center;
+    width: 80%;
+  }
+
+  .ingred-img {
+    margin-top: 30px;
+
+    figure {
+      max-width: 60%;
+      width: 100%;
+      margin: auto;
+    }
+  }
+}
+
+.discover {
+  background-image: url(../../images/about-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  z-index: -1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.64);
+    z-index: -3;
+  }
+}
+
+.testimonials {
+  .testiwrapper {
+    .head-text {
+      margin-left: 0;
+    }
+
+    .slider-btn {
+      gap: 20px;
+    }
+
+    .testi-slider-wrapper {
+        .testi-card {
+          i {
+            color: $text-color;
+          }
+
+          .slider-1 {
+            position: relative;
+            padding: 30px;
+
+            .testi-1 {
+              background-color: $secondary-bg-color;
+              padding: 20px;
+              padding-bottom: 80px;
+              background-image: url(../../images/testi-bg1.png);
+              background-position: right bottom;
+              background-repeat: no-repeat;
+            }
+
+            .card-bg {
+              position: absolute;
+              left: 0;
+              bottom: 10px;
+              z-index: -1;
+            }
+          }
+        }
+
+        .slick-dots {
+          display: none !important;
+        }
+      }
+    }
+  }
+
+.store-contact-us {
+  position: relative;
+  background-image: url(../../images/veg-bg.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  background-position-y: -10%;
+  background-position-x: -10%;
+
+  .store {
+    .store-bg-wrapper {
+      position: relative;
+    }
+
+    .slider-store-btn {
+      position: absolute;
+      right: 158px;
+      top: 25px;
+      gap: 20px;
+
+      button {
+        &:hover {
+          padding: 8px 20px;
+        }
+      }
+    }
+
+    .store-slider-wrapper {
+      position: absolute;
+      left: 50%;
+      bottom: 16px;
+      transform: translate(-65%, 0);
+
+      img {
+        width: 80%;
+      }
+    }
+  }
+
+  .contact-us {
+    .form-wrapper {
+      .contact-input {
+        display: flex;
+        flex-direction: column;
+        max-width: 370px;
+        width: 100%;
+        margin-bottom: 32px;
+        position: relative;
+
+        label {
+          color: $primary-color;
+          margin-left: 10px;
+          margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+          padding: 10px 20px;
+          padding: 10px 20px;
+          background: none;
+          border: 1px solid #a1a1a1;
+          color: $text-color;
+          resize: none;
+
+          &::placeholder {
+            color: $text-color;
+          }
+
+          &:focus {
+            border: 1px solid #a1a1a1;
+            outline: none;
+          }
+        }
+
+        textarea {
+          height: 150px;
+        }
+
+        a {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          padding: 8px;
+          background-color: $primary-color;
+
+          img {
+            width: 25px;
+          }
+        }
+      }
+    }
+
+    .head-text {
+      margin-left: 0;
+    }
+
+    .contact-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+
+      .contact-details {
+        display: flex;
+        flex-direction: column;
+      }
+
+      span {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .contact-bg1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+    img {
+      max-width: 300px;
+    }
+  }
+
+  .contact-bg2 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -65%);
+    z-index: -1;
+
+    img {
+      max-width: 300px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .about-wrapper {
+    .row {
+      background: none !important;
+
+      .about-us-text-wrapper {
+        background-color: $secondary-bg-color;
+      }
+    }
+
+    .about-text {
+      padding: 30px !important;
+    }
+  }
+
+  .service-wrapper .service {
+    padding-bottom: 30px !important;
+  }
+
+  .dishes {
+    .dish-content {
+      padding-bottom: 20px;
+    }
+  }
+
+  .store {
+    .store-bg-wrapper {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .ingred {
+    .ingred-img {
+      width: 100% !important;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+
+  .contact-bg1 img,
+  .contact-bg2 img {
+    width: 200px !important;
+  }
+}

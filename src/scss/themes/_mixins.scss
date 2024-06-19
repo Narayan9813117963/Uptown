@@ -1,0 +1,19 @@
+
+@mixin setFontType($color, $family) {
+    font-family: $family;
+    color: $color;
+  }
+  
+  @mixin responsive-font($sizes) {
+    @each $size, $value in $sizes {
+      font-size: map-get($sizes, $size);
+    }
+  }
+  
+  @mixin button-styles($bg-color, $border-color, $text-color) {
+    background: $bg-color;
+    border: 1px solid $border-color;
+    color: $text-color;
+    padding: 8px 20px;
+    font-family: $font-family;
+  }
