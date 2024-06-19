@@ -11,6 +11,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-weight: 400;
+	background-color: $primary-bg-color;
+
 }
 
 img {
@@ -78,12 +80,143 @@ input[type="number"] {
 a,
 button {
 	transition: all ease 0.5s;
-
-	&:hover {
-		opacity: 0.8;
-	}
 }
 
 p {
 	word-wrap: break-word;
+  color: #fff;
+}
+h1,
+h2,
+h3,
+h4{
+  color: #fff;
+}
+
+h1 {
+  @include responsive-font(
+    (
+      default: $h1-font-size,
+    )
+  );
+}
+h2 {
+  @include responsive-font(
+    (
+      default: $h2-font-size,
+    )
+  );
+}
+h3 {
+  @include responsive-font(
+    (
+      default: $h3-font-size,
+    )
+  );
+}
+h4 {
+  @include responsive-font(
+    (
+      default: $h4-font-size,
+    )
+  );
+}
+li {
+  list-style: none;
+}
+a {
+  color: $text-color;
+}
+p {
+  @include responsive-font(
+    (
+      default: $p-font-size,
+    )
+  );
+  margin: 0;
+}
+
+button {
+  background: none;
+  border: none;
+  font-family: $font-family;
+  transition: 0.2s all;
+}
+
+.button-1 {
+  @include button-styles(none, #fff, #fff);
+  &:hover {
+    background-color: $primary-color;
+    border: 1px solid transparent;
+    color: #fff;
+  }
+}
+.prev-btn {
+  @include button-styles($primary-color, transparent, #fff);
+  &:hover {
+    @include button-styles(transparent, #fff, #fff);
+  }
+}
+.store-prev-btn {
+  @include button-styles($primary-color, transparent, #fff);
+  &:hover {
+    @include button-styles(transparent, #fff, #fff);
+  }
+}
+a {
+  text-decoration: none;
+  font-family: $font-family;
+
+}
+
+.custom-container-sm {
+  padding: 0 90px;
+  margin: 0 auto;
+}
+.section-pad {
+  padding: $global-sec-pad 0;
+}
+.section-top-pad {
+  padding-top: $global-sec-pad;
+}
+.section-bottom-pad {
+  padding-bottom: $global-sec-pad;
+}
+.head-text {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding:  0 50px;
+}
+.text-align-left {
+  text-align: start;
+  align-items: start;
+}
+@media (max-width: 992px) {
+  .custom-container-sm{
+    padding: unset !important;
+  }
+	p {
+	  font-size: 16px;
+	}
+  .head-text{
+    padding:  unset !important;
+  }
+}
+@media (max-width: 576px) {
+	h1{
+	  font-size: 36px;
+	}
+	
+	.section-pad {
+	  padding: 50px 0;
+	}
+	.section-top-pad {
+	  padding-top: 50px;
+	}
+	.section-bottom-pad {
+	  padding-bottom: 50px;
+	}
 }
