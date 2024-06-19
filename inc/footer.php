@@ -1,6 +1,6 @@
 <footer>
    <div class="container">
-      <div class="footer-wrapper">
+      <div class="footer-wrapper position-relative">
          <div class="row">
             <div class="col-lg-3">
                <img src="images/logo.svg" alt="logo">
@@ -9,7 +9,7 @@
                 <div class="row justify-content-end">
                 <div class=" col-12 col-md-6 col-lg-3">
                   <div class=" d-flex">
-                     <div class="footer-links">
+                     <div class="footer-links d-flex align-items-start w-100">
                         <h4>About us</h4>
                         <ul>
                            <li>
@@ -27,9 +27,9 @@
                </div>
                <div class=" col-12 col-md-6 col-lg-3 ">
                   <div class=" d-flex ">
-                     <div class="footer-links">
-                        <h4>Services</h4>
-                        <ul>
+                     <div class="footer-links d-flex align-items-start w-100">
+                        <h4 class="mb-5">Services</h4>
+                        <ul class="d-flex w-100 gap-2">
                            <li><a href="#">Delivery</a></li>
                            <li><a href="#">Packaging</a></li>
                         </ul>
@@ -38,9 +38,9 @@
                </div>
                <div class="col-12 col-md-6 col-lg-3 ">
                   <div class=" d-flex ">
-                     <div class="footer-links ">
-                        <h4>Shedule</h4>
-                        <ul>
+                     <div class="footer-links d-flex align-items-start w-100">
+                        <h4 class="mb-5">Shedule</h4>
+                        <ul class="d-flex w-100 gap-2">
                            <li><a href="#">Mon - Fri</a></li>
                            <li><a href="#">9:00am - 8:00pm</a></li>
                         </ul>
@@ -49,7 +49,7 @@
                </div>
                <div class="col-12 col-md-6 col-lg-1">
                   <div class="footer-social d-flex justify-content-end">
-                     <div class="social-links ">
+                     <div class="social-links d-flex gap-3">
                         <a href="#"><i class="bi bi-facebook"></i></a>
                         <a href="#"><i class="bi bi-instagram"></i></a>
                      </div>

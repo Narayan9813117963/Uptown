@@ -10,7 +10,7 @@
   </head>
   <body>
         <header>
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg position-fixed w-100">
               <div class="container">
                 <div class="d-flex w-100 justify-content-between px-2">
                   <div class="col-9 col-md-9 col-lg-2">
@@ -37,8 +37,8 @@
                     </div>
                   </div>
                   <div class="col-lg-4 d-none d-lg-block ">
-                    <div class="contact-head d-flex align-items-center justify-content-end">
-                      <div class="links">
+                    <div class="contact-head d-flex align-items-center justify-content-end gap-3">
+                      <div class="links d-flex gap-3">
                         <a href="#" aria-level="Facebook"
                           ><i class="bi bi-facebook"></i
                         ></a>
@@ -46,9 +46,9 @@
                         ></a>
                       </div>
                       <div class="contact-wrapper">
-                        <div class="call-wrapper">
+                        <div class="call-wrapper d-flex align-items-center gap-2">
                           <i class="bi bi-phone"></i>
-                          <div class="number">
+                          <div class="number d-flex align-items-center">
                             <a href="tel:+(995 32) 242 19 20">+(995 32) 242 19 20</a>
                             <a href="#" aria-level="Call Us">Request a call</a>
                           </div>
@@ -59,10 +59,10 @@
                     <div class=" col-3 col-md-3 col-lg-2 toggler-btn justify-content-end">
                       <div class=" d-flex align-items-center">
                       <a class="" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                              <div class="bar-icon">
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                              <div class="bar-icon d-flex gap-2">
+                            <span class="w-100"></span>
+                            <span class="w-100"></span>
+                            <span class="w-100"></span>
                           </div>
                         </a>
                               </div>
@@ -76,7 +76,7 @@
                           </div>
                           <div class="offcanvas-body">
                             <div class="offcanvas-contents">
-                              <ul>
+                              <ul class="d-flex ps-5 gap-2">
                               <li><a href="#">Home</a></li>
                               <li><a href="#">About us</a></li>
                               <li><a href="#">Menu</a></li>
