@@ -305,9 +305,9 @@ a {
     right: 24%;
     top: 25px; }
   .store-contact-us .store-bg-wrapper .frame-img {
-    max-width: 231px;
+    max-width: 230px;
     position: absolute;
-    top: 81px;
+    top: 80px;
     left: 115px; }
 
 .contact-us form {
@@ -319,7 +319,6 @@ a {
       color: #c08f43; }
     .contact-us form .contact-input input,
     .contact-us form .contact-input textarea {
-      padding: 10px 20px;
       padding: 10px 20px;
       background: none;
       border: 1px solid #a1a1a1;
