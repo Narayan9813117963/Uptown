@@ -105,14 +105,14 @@
 <section class="dishes section-top-pad">
    <div class="container">
    <div class="text-center">
-      <h2>You may like our one of our dishes:</h2>
+      <h2>You may like our one of our dishes</h2>
    </div>
    <div class="dish-categories">
-      <div class="cat-links my-4 d-flex justify-content-between">
-         <button class="cat-1">Pasta</button>
-         <button class="cat-2">Salad</button>
-         <button class="cat-3">Grills</button>
-         <button class="cat-4">Cake</button>
+      <div class="cat-links my-4 d-flex ">
+         <a class="cat-1">Pasta</a>
+         <a class="cat-2">Salad</a>
+         <a class="cat-3">Grills</a>
+         <a class="cat-4">Cake</a>
       </div>
       <div class="cat-content row">
          <div class="dish-content col-12 col-md-6 col-lg-3 group-1">

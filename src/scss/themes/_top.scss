@@ -65,11 +65,12 @@
 
   .dish-categories {
     .cat-links {
-      width: 30%;
 
-      button {
+      a {
         color: #fff;
-
+        max-width: 70px;
+        width: 100%;
+        cursor: pointer;
         &.active {
           color: $primary-color;
         }
@@ -83,7 +84,7 @@
           border-radius: 10px;
 
           img {
-            height: 270px;
+            aspect-ratio: 1.1;
             object-fit: cover;
           }
 

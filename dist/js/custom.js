@@ -51,7 +51,7 @@ $(document).ready(function () {
     $(".dish-content")
       .filter("." + group)
       .show();
-    $(".cat-links button").removeClass("active");
+    $(".cat-links a").removeClass("active");
     $(".cat-" + group.split("-")[1]).addClass("active");
   }
 
@@ -69,7 +69,7 @@ $(document).ready(function () {
   });
 
   // Check for an already active button and show its content
-  var activeButton = $(".cat-links button.active");
+  var activeButton = $(".cat-links a.active");
   if (activeButton.length > 0) {
     var activeGroup =
       "group-" + activeButton.attr("class").split(" ")[0].split("-")[1];
