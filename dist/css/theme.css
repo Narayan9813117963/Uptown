@@ -323,7 +323,6 @@ a {
 .testimonials .testiwrapper .slider-btn {
   gap: 20px; }
 
-<<<<<<< HEAD
 .testimonials .testiwrapper .testi-slider-wrapper .testi-card i {
   color: #fff; }
 
@@ -331,36 +330,19 @@ a {
   position: relative;
   padding: 30px; }
   .testimonials .testiwrapper .testi-slider-wrapper .testi-card .slider-1 .testi-1 {
-=======
-.testimonials .testiwrapper .testi-slider-wrapper .testi-slider .testi-card i {
-  color: #fff; }
-
-.testimonials .testiwrapper .testi-slider-wrapper .testi-slider .testi-card .slider-1 {
-  position: relative;
-  padding: 30px; }
-  .testimonials .testiwrapper .testi-slider-wrapper .testi-slider .testi-card .slider-1 .testi-1 {
->>>>>>> 31399db2f90358efa6fb384a54b5d7af0aa18f6b
     background-color: #232227;
     padding: 20px;
     padding-bottom: 80px;
     background-image: url(../../images/testi-bg1.png);
     background-position: right bottom;
     background-repeat: no-repeat; }
-<<<<<<< HEAD
   .testimonials .testiwrapper .testi-slider-wrapper .testi-card .slider-1 .card-bg {
-=======
-  .testimonials .testiwrapper .testi-slider-wrapper .testi-slider .testi-card .slider-1 .card-bg {
->>>>>>> 31399db2f90358efa6fb384a54b5d7af0aa18f6b
     position: absolute;
     left: 0;
     bottom: 10px;
     z-index: -1; }
 
-<<<<<<< HEAD
 .testimonials .testiwrapper .testi-slider-wrapper .slick-dots {
-=======
-.testimonials .testiwrapper .testi-slider-wrapper .testi-slider .slick-dots {
->>>>>>> 31399db2f90358efa6fb384a54b5d7af0aa18f6b
   display: none !important; }
 
 .store-contact-us {
@@ -394,11 +376,7 @@ a {
     width: 100%;
     margin-bottom: 32px;
     position: relative; }
-<<<<<<< HEAD
     .store-contact-us .contact-us .form-wrapper .contact-input label {
-=======
-    .store-contact-us .contact-us .form-wrapper .contact-input span {
->>>>>>> 31399db2f90358efa6fb384a54b5d7af0aa18f6b
       color: #c08f43;
       margin-left: 10px;
       margin-bottom: 8px; }
