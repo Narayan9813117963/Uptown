@@ -40,7 +40,7 @@
                         <div class="about-us-text-wrapper d-flex align-items-center ">
                            <div class="about-text">
                               <h2>About us</h2>
-                              <p>The cozy Uptown restaurant is renowned for its traditional cuisine. we are
+                              <p class="px-3">The cozy Uptown restaurant is renowned for its traditional cuisine. we are
                                  delighted to welcome our guests and exceed all your expectations.
                               </p>
                               <p>We are waiting for you every day, from 9:00 to 21:00.</p>
@@ -62,7 +62,7 @@
                   <div class="service-wrapper pt-5">
                      <div class="row">
                         <div class="col-md-4">
-                           <div class="service d-flex align-items-center">
+                           <div class="service d-flex align-items-center flex-column">
                               <div class="service-icon">
                                  <figure class="w-100">
                                     <img src="images/icons/choose-icon1.png" alt="choose-icon1">
@@ -73,7 +73,7 @@
                            </div>
                         </div>
                         <div class="col-md-4">
-                           <div class="service d-flex align-items-center">
+                           <div class="service d-flex align-items-center flex-column">
                               <div class="service-icon">
                                  <figure>
                                     <img class="second-icon" src="images/icons/choose-icon2.png"
@@ -85,7 +85,7 @@
                            </div>
                         </div>
                         <div class="col-md-4">
-                           <div class="service d-flex align-items-center">
+                           <div class="service d-flex align-items-center flex-column">
                               <div class="service-icon">
                                  <figure>
                                     <img class="third-icon" src="images/icons/choose-icon1.png"
@@ -150,6 +150,81 @@
                   </figure>
                </div>
                       <div class="dish-detail">
+                  <div class="dish-star-name d-flex justify-content-between align-items-end d-flex justify-content-between align-items-end">
+                     <div class="dish-name">
+                        <h4>See the menu</h4>
+                        <div class="star-wrapper">
+                           <i class="bi bi-star"></i>
+                           <i class="bi bi-star"></i>
+                           <i class="bi bi-star"></i>
+                           <i class="bi bi-star"></i>
+                           <i class="bi bi-star"></i>
+                        </div>
+                     </div>
+                     <span>$7.66</span>
+                  </div>
+                  <p>Experience our shrimp and avocado salad with crisp greens and tangy lime vinaigrette.</p>
+               </div>
+            </div>
+         </div>
+         <div class="dish-content col-12 col-md-6 col-lg-3 group-1">
+            <div class="dish-content-wrapper h-100 overflow-hidden">
+               <div class="dish-img">
+                  <figure>
+                     <img src="images/dish-3.jpg" alt="dish-3" width="100%">
+                  </figure>
+               </div>
+               <div class="dish-detail">
+                  <div class="dish-star-name d-flex justify-content-between align-items-end">
+                     <div class="dish-name">
+                        <h4>See the menu</h4>
+                        <div class="star-wrapper">
+                           <i class="bi bi-star"></i>
+                           <i class="bi bi-star"></i>
+                           <i class="bi bi-star"></i>
+                           <i class="bi bi-star"></i>
+                           <i class="bi bi-star"></i>
+                        </div>
+                     </div>
+                     <span>$7.66</span>
+                  </div>
+                  <p>Indulge in our slow-cooked beef stew with root vegetables and fragrant herbs.</p>
+               </div>
+            </div>
+         </div>
+         <div class="dish-content col-12 col-md-6 col-lg-3 group-1">
+            <div class="dish-content-wrapper h-100 overflow-hidden">
+               <div class="dish-img">
+                  <figure>
+                     <img src="images/dish-4.jpg" alt="dish-4" width="100%">
+                  </figure>
+               </div>
+               <div class="dish-detail">
+                  <div class="dish-star-name d-flex justify-content-between align-items-end">
+                     <div class="dish-name">
+                        <h4>See the menu</h4>
+                        <div class="star-wrapper">
+                           <i class="bi bi-star"></i>
+                           <i class="bi bi-star"></i>
+                           <i class="bi bi-star"></i>
+                           <i class="bi bi-star"></i>
+                           <i class="bi bi-star"></i>
+                        </div>
+                     </div>
+                     <span>$7.66</span>
+                  </div>
+                  <p>Savor our creamy Alfredo pasta with grilled chicken, Parmesan, garlic, and parsley</p>
+               </div>
+            </div>
+         </div>
+         <div class="dish-content col-12 col-md-6 col-lg-3 group-2">
+            <div class="dish-content-wrapper h-100 overflow-hidden">
+               <div class="dish-img">
+                  <figure>
+                     <img src="images/dish-2.jpg" alt="dish-2" width="100%">
+                  </figure>
+               </div>
+               <div class="dish-detail">
                   <div class="dish-star-name d-flex justify-content-between align-items-end">
                      <div class="dish-name">
                         <h4>See the menu</h4>
@@ -167,81 +242,6 @@
                </div>
             </div>
          </div>
-         <div class="dish-content col-12 col-md-6 col-lg-3 group-1">
-            <div class="dish-content-wrapper h-100 overflow-hidden">
-               <div class="dish-img">
-                  <figure>
-                     <img src="images/dish-3.jpg" alt="dish-3" width="100%">
-                  </figure>
-               </div>
-               <div class="dish-detail">
-                  <div class="dish-star-name">
-                     <div class="dish-name">
-                        <h4>See the menu</h4>
-                        <div class="star-wrapper">
-                           <i class="bi bi-star"></i>
-                           <i class="bi bi-star"></i>
-                           <i class="bi bi-star"></i>
-                           <i class="bi bi-star"></i>
-                           <i class="bi bi-star"></i>
-                        </div>
-                     </div>
-                     <span>$7.66</span>
-                  </div>
-                  <p>Indulge in our slow-cooked beef stew with root vegetables and fragrant herbs.</p>
-               </div>
-            </div>
-         </div>
-         <div class="dish-content col-12 col-md-6 col-lg-3 group-1">
-            <div class="dish-content-wrapper h-100 overflow-hidden">
-               <div class="dish-img">
-                  <figure>
-                     <img src="images/dish-4.jpg" alt="dish-4" width="100%">
-                  </figure>
-               </div>
-               <div class="dish-detail">
-                  <div class="dish-star-name">
-                     <div class="dish-name">
-                        <h4>See the menu</h4>
-                        <div class="star-wrapper">
-                           <i class="bi bi-star"></i>
-                           <i class="bi bi-star"></i>
-                           <i class="bi bi-star"></i>
-                           <i class="bi bi-star"></i>
-                           <i class="bi bi-star"></i>
-                        </div>
-                     </div>
-                     <span>$7.66</span>
-                  </div>
-                  <p>Savor our creamy Alfredo pasta with grilled chicken, Parmesan, garlic, and parsley</p>
-               </div>
-            </div>
-         </div>
-         <div class="dish-content col-12 col-md-6 col-lg-3 group-2">
-            <div class="dish-content-wrapper h-100 overflow-hidden">
-               <div class="dish-img">
-                  <figure>
-                     <img src="images/dish-2.jpg" alt="dish-2" width="100%">
-                  </figure>
-               </div>
-               <div class="dish-detail">
-                  <div class="dish-star-name">
-                     <div class="dish-name">
-                        <h4>See the menu</h4>
-                        <div class="star-wrapper">
-                           <i class="bi bi-star"></i>
-                           <i class="bi bi-star"></i>
-                           <i class="bi bi-star"></i>
-                           <i class="bi bi-star"></i>
-                           <i class="bi bi-star"></i>
-                        </div>
-                     </div>
-                     <span>$7.66</span>
-                  </div>
-                  <p>Experience our shrimp and avocado salad with crisp greens and tangy lime vinaigrette.</p>
-               </div>
-            </div>
-         </div>
          <div class="dish-content col-12 col-md-6 col-lg-3 group-2">
             <div class="dish-content-wrapper h-100 overflow-hidden">
                <div class="dish-img">
@@ -250,7 +250,7 @@
                   </figure>
                </div>
                <div class="dish-detail">
-                  <div class="dish-star-name">
+                  <div class="dish-star-name d-flex justify-content-between align-items-end">
                      <div class="dish-name">
                         <h4>See the menu</h4>
                         <div class="star-wrapper">
@@ -275,7 +275,7 @@
                   </figure>
                </div>
                <div class="dish-detail">
-                  <div class="dish-star-name">
+                  <div class="dish-star-name d-flex justify-content-between align-items-end">
                      <div class="dish-name">
                         <h4>See the menu</h4>
                         <div class="star-wrapper">
@@ -300,7 +300,7 @@
                   </figure>
                </div>
                <div class="dish-detail">
-                  <div class="dish-star-name">
+                  <div class="dish-star-name d-flex justify-content-between align-items-end">
                      <div class="dish-name">
                         <h4>See the menu</h4>
                         <div class="star-wrapper">
@@ -325,7 +325,7 @@
                   </figure>
                </div>
                <div class="dish-detail">
-                  <div class="dish-star-name">
+                  <div class="dish-star-name d-flex justify-content-between align-items-end">
                      <div class="dish-name">
                         <h4>See the menu</h4>
                         <div class="star-wrapper">
@@ -350,7 +350,7 @@
                   </figure>
                </div>
                <div class="dish-detail">
-                  <div class="dish-star-name">
+                  <div class="dish-star-name d-flex justify-content-between align-items-end">
                      <div class="dish-name">
                         <h4>See the menu</h4>
                         <div class="star-wrapper">
@@ -375,7 +375,7 @@
                   </figure>
                </div>
                <div class="dish-detail">
-                  <div class="dish-star-name">
+                  <div class="dish-star-name d-flex justify-content-between align-items-end">
                      <div class="dish-name">
                         <h4>See the menu</h4>
                         <div class="star-wrapper">
@@ -400,7 +400,7 @@
                   </figure>
                </div>
                <div class="dish-detail">
-                  <div class="dish-star-name">
+                  <div class="dish-star-name d-flex justify-content-between align-items-end">
                      <div class="dish-name">
                         <h4>See the menu</h4>
                         <div class="star-wrapper">
@@ -425,7 +425,7 @@
                   </figure>
                </div>
                <div class="dish-detail">
-                  <div class="dish-star-name">
+                  <div class="dish-star-name d-flex justify-content-between align-items-end">
                      <div class="dish-name">
                         <h4>See the menu</h4>
                         <div class="star-wrapper">
@@ -456,7 +456,7 @@
             </p>
          </div>
          <div class="ingred-img">
-            <figure>
+            <figure class="w-100 m-auto">
                <img src="images/ingredients.png" alt="ingredients">
             </figure>
          </div>
@@ -672,7 +672,7 @@
                         <button class="store-prev-btn"><i class="bi bi-chevron-left"></i></button>
                         <button class="button-1  store-next-btn"><i class="bi bi-chevron-right"></i></button>
                      </div>
-                     <div class="store-slider-wrapper position-absolute">
+                     <div class="store-slider-wrapper position-absolute start-50">
                         <div class="store-slider">
                            <div class="store-slider-1 position-relative">
                               <figure>
@@ -694,18 +694,18 @@
                <div class="col-lg-7">
                   <div class="form-wrapper">
                      <form action="submit">
-                        <div class="contact-input  d-flex">
-                           <label for="name">Enter your name</label>
+                        <div class="contact-input  d-flex flex-column">
+                           <label class="ms-3 mb-2" for="name">Enter your name</label>
                            <input id="name" type="text" placeholder="Name">
                         </div>
-                        <div class="contact-input d-flex">
-                           <label for="number">Your phone number</label>
+                        <div class="contact-input d-flex flex-column">
+                           <label class="ms-3 mb-2" for="number">Your phone number</label>
                            <input id="number" type="text" placeholder="+380">
                         </div>
-                        <div class="contact-input position-relative d-flex text-area">
-                           <label for="message">Enter message</label>
+                        <div class="contact-input position-relative d-flex flex-column text-area">
+                           <label class="ms-3 mb-2" for="message">Enter message</label>
                            <textarea id="message" type="text" placeholder="Message"></textarea>
-                           <a class="position-absolute" href="#"><img src="images/icons/email-send.svg" alt="email-send"></a>
+                           <a class="position-absolute bottom-0 end-0 px-2 py-2" href="#"><img src="images/icons/email-send.svg" alt="email-send"></a>
                         </div>
                         <div class="terms">
                            <div class="form-check">
@@ -722,13 +722,13 @@
                   <div class="head-text ms-0 text-align-left p-0 mt-5">
                      <h2>Contact us:</h2>
                   </div>
-                  <div class="contact-wrapper d-flex gap-5">
+                  <div class="contact-wrapper flex-column d-flex gap-5 ">
                      <span>Contact us in a convenient way:</span>
-                     <div class="contact-details d-flex">
+                     <div class="contact-details flex-column d-flex">
                         <span class="pb-2">Phone: <a href="tel:+9779813117963">+9779813117963</a></span>
                         <a href="mailto:chaudharynarayan799@gmail.com">chaudharynarayan799@gmail.com</a>
                      </div>
-                     <div class="contact-details d-flex">
+                     <div class="contact-details flex-column d-flex">
                         <span class="pb-2">Shedule:</span>
                         <p>9:00 - 20:00</p>
                      </div>
@@ -741,10 +741,10 @@
          </div>
       </div>
    </div>
-   <figure class="contact-bg1 position-absolute">
+   <figure class="contact-bg1 position-absolute end-0 bottom-0">
       <img src="images/contact-bg.png" alt="contact-bg">
    </figure>
-   <figure class="contact-bg2 position-absolute">
+   <figure class="contact-bg2 position-absolute top-50 start-0">
       <img src="images/contact-bg2.png" alt="contact-bg2">
    </figure>
 </section>

@@ -9,9 +9,9 @@
                 <div class="row justify-content-end">
                 <div class=" col-12 col-md-6 col-lg-3">
                   <div class=" d-flex">
-                     <div class="footer-links d-flex align-items-start w-100">
+                     <div class="footer-links flex-column d-flex align-items-start w-100">
                         <h4>About us</h4>
-                        <ul>
+                        <ul class="p-0 flex-column">
                            <li>
                               <a href="#">Price</a>
                            </li>
@@ -27,9 +27,9 @@
                </div>
                <div class=" col-12 col-md-6 col-lg-3 ">
                   <div class=" d-flex ">
-                     <div class="footer-links d-flex align-items-start w-100">
-                        <h4 class="mb-5">Services</h4>
-                        <ul class="d-flex w-100 gap-2">
+                     <div class="footer-links flex-column d-flex align-items-start w-100">
+                        <h4>Services</h4>
+                        <ul class="d-flex w-100 gap-2 flex-column p-0">
                            <li><a href="#">Delivery</a></li>
                            <li><a href="#">Packaging</a></li>
                         </ul>
@@ -38,9 +38,9 @@
                </div>
                <div class="col-12 col-md-6 col-lg-3 ">
                   <div class=" d-flex ">
-                     <div class="footer-links d-flex align-items-start w-100">
-                        <h4 class="mb-5">Shedule</h4>
-                        <ul class="d-flex w-100 gap-2">
+                     <div class="footer-links flex-column d-flex align-items-start w-100">
+                        <h4>Shedule</h4>
+                        <ul class="d-flex flex-column w-100 gap-2 p-0">
                            <li><a href="#">Mon - Fri</a></li>
                            <li><a href="#">9:00am - 8:00pm</a></li>
                         </ul>

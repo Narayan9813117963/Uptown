@@ -19,7 +19,7 @@
                   <div class="col-lg-6 d-none d-lg-block ">
                     <div class="d-flex justify-content-center">
                     <div class=" middle-nav" id="navbarSupportedContent">
-                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-5">
                         <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -48,7 +48,7 @@
                       <div class="contact-wrapper">
                         <div class="call-wrapper d-flex align-items-center gap-2">
                           <i class="bi bi-phone"></i>
-                          <div class="number d-flex align-items-center">
+                          <div class="number d-flex align-items-center flex-column">
                             <a href="tel:+(995 32) 242 19 20">+(995 32) 242 19 20</a>
                             <a href="#" aria-level="Call Us">Request a call</a>
                           </div>
@@ -56,10 +56,10 @@
                       </div>
                     </div>
                   </div>
-                    <div class=" col-3 col-md-3 col-lg-2 toggler-btn justify-content-end">
+                    <div class=" col-3 col-md-3 col-lg-2 toggler-btn d-none justify-content-end">
                       <div class=" d-flex align-items-center">
                       <a class="" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                              <div class="bar-icon d-flex gap-2">
+                              <div class="bar-icon d-flex flex-column gap-2">
                             <span class="w-100"></span>
                             <span class="w-100"></span>
                             <span class="w-100"></span>
@@ -76,7 +76,7 @@
                           </div>
                           <div class="offcanvas-body">
                             <div class="offcanvas-contents">
-                              <ul class="d-flex ps-5 gap-2">
+                              <ul class="d-flex ps-5 gap-2 flex-column">
                               <li><a href="#">Home</a></li>
                               <li><a href="#">About us</a></li>
                               <li><a href="#">Menu</a></li>

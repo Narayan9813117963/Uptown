@@ -10,19 +10,13 @@
       position: absolute;
     }
       .footer-links {
-        flex-direction: column;
         h4 {
           color: $primary-color;
           font-size: 18px;
         }
         ul {
-          padding: 0;
-          flex-direction: column;
           li {
             color: $text-color;
-            a{
-              display: block;
-            }
           }
         }
       }

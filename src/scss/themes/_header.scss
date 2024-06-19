@@ -7,9 +7,7 @@
     max-width: 168px !important;
   }
   .toggler-btn {
-    display: none;
     .bar-icon {
-      flex-direction: column;
       width: 28px;
 
       span {
@@ -31,16 +29,9 @@
         filter: invert(1);
       }
     }
-    .offcanvas-contents {
-      ul {
-        flex-direction: column;
-      }
-    }
   }
 .middle-nav {
   ul {
-    margin: 0 auto;
-    gap: 20px;
     li {
       a {
         color: $text-color;
@@ -68,7 +59,6 @@
         font-size: 24px;
       }
       .number {
-        flex-direction: column;
         a {
           color: $text-color;
         }
