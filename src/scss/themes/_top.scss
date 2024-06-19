@@ -249,10 +249,9 @@
 
       a {
         background-color: $primary-color;
+        display: block;
+        max-width: 36px;
 
-        img {
-          width: 25px;
-        }
       }
     }
   }

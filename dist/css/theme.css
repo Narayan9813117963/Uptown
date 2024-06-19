@@ -334,9 +334,9 @@ a {
     .contact-us form .contact-input textarea {
       height: 150px; }
     .contact-us form .contact-input a {
-      background-color: #c08f43; }
-      .contact-us form .contact-input a img {
-        width: 25px; }
+      background-color: #c08f43;
+      display: block;
+      max-width: 36px; }
 
 .contact-us .contact-wrapper span {
   color: #c08f43; }
