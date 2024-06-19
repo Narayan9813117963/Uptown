@@ -1,49 +1,49 @@
 html,
 body {
-	height: 100%;
+  height: 100%;
 }
 
 body {
-	font-family: $fontJP;
-	font-size: $size;
-	color: $dark;
-	background: #f8f8fb;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: 400;
-	background-color: $primary-bg-color;
+  font-family: $fontJP;
+  font-size: $size;
+  color: $dark;
+  background: #f8f8fb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  background-color: $primary-bg-color;
 
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 /* custom scrollbar  */
 ::-webkit-scrollbar {
-	width: 6px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar:horizontal {
-	height: 6px;
+  height: 6px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-	height: 6px;
+  height: 6px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	-webkit-border-radius: 6px;
-	border-radius: 6px;
-	background: $dark;
-	height: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: $dark;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
-	background: $dark;
-	height: 6px;
+  background: $dark;
+  height: 6px;
 }
 
 input[type="color"],
@@ -62,77 +62,69 @@ input[type="url"],
 input[type="week"],
 select,
 textarea {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-	-webkit-appearance: none;
-	margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 /* Firefox */
 input[type="number"] {
-	-moz-appearance: textfield;
+  -moz-appearance: textfield;
 }
 
 a,
 button {
-	transition: all ease 0.5s;
+  transition: all ease 0.5s;
 }
 
 p {
-	word-wrap: break-word;
+  word-wrap: break-word;
   color: #fff;
 }
+
 h1,
 h2,
 h3,
-h4{
+h4 {
   color: #fff;
 }
 
 h1 {
-  @include responsive-font(
-    (
-      default: $h1-font-size,
-    )
-  );
+  @include responsive-font((default: $h1-font-size,
+    ));
 }
+
 h2 {
-  @include responsive-font(
-    (
-      default: $h2-font-size,
-    )
-  );
+  @include responsive-font((default: $h2-font-size,
+    ));
 }
+
 h3 {
-  @include responsive-font(
-    (
-      default: $h3-font-size,
-    )
-  );
+  @include responsive-font((default: $h3-font-size,
+    ));
 }
+
 h4 {
-  @include responsive-font(
-    (
-      default: $h4-font-size,
-    )
-  );
+  @include responsive-font((default: $h4-font-size,
+    ));
 }
+
 li {
   list-style: none;
 }
+
 a {
   color: $text-color;
 }
+
 p {
-  @include responsive-font(
-    (
-      default: $p-font-size,
-    )
-  );
+  @include responsive-font((default: $p-font-size,
+    ));
   margin: 0;
 }
 
@@ -145,24 +137,30 @@ button {
 
 .button-1 {
   @include button-styles(none, #fff, #fff);
+
   &:hover {
     background-color: $primary-color;
     border: 1px solid transparent;
     color: #fff;
   }
 }
+
 .prev-btn {
   @include button-styles($primary-color, transparent, #fff);
+
   &:hover {
     @include button-styles(transparent, #fff, #fff);
   }
 }
+
 .store-prev-btn {
   @include button-styles($primary-color, transparent, #fff);
+
   &:hover {
     @include button-styles(transparent, #fff, #fff);
   }
 }
+
 a {
   text-decoration: none;
   font-family: $font-family;
@@ -173,38 +171,47 @@ a {
   padding: 0 90px;
   margin: 0 auto;
 }
+
 .section-pad {
   padding: $global-sec-pad 0;
 }
+
 .section-top-pad {
   padding-top: $global-sec-pad;
 }
+
 .section-bottom-pad {
   padding-bottom: $global-sec-pad;
 }
+
 @media (max-width: 992px) {
-  .custom-container-sm{
+  .custom-container-sm {
     padding: unset !important;
   }
-	p {
-	  font-size: 16px;
-	}
-  .head-text{
-    padding:  unset !important;
+
+  p {
+    font-size: 16px;
+  }
+
+  .head-text {
+    padding: unset !important;
   }
 }
+
 @media (max-width: 576px) {
-	h1{
-	  font-size: 36px;
-	}
-	
-	.section-pad {
-	  padding: 50px 0;
-	}
-	.section-top-pad {
-	  padding-top: 50px;
-	}
-	.section-bottom-pad {
-	  padding-bottom: 50px;
-	}
+  h1 {
+    font-size: 36px;
+  }
+
+  .section-pad {
+    padding: 50px 0;
+  }
+
+  .section-top-pad {
+    padding-top: 50px;
+  }
+
+  .section-bottom-pad {
+    padding-bottom: 50px;
+  }
 }

@@ -25,21 +25,21 @@
 }
 
 .about-us {
-    .row {
-      background-color: $secondary-bg-color;
+  .row {
+    background-color: $secondary-bg-color;
 
-      .about-text {
-        padding: 20px 60px;
+    .about-text {
+      padding: 20px 60px;
 
-        a {
-          @include button-styles(none, none, $primary-color);
-          display: flex;
-          align-items: center;
-          gap: 10px;
-          padding: 0;
-        }
+      a {
+        @include button-styles(none, none, $primary-color);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
       }
     }
+  }
 }
 
 .why-choose {
@@ -71,6 +71,7 @@
         max-width: 70px;
         width: 100%;
         cursor: pointer;
+
         &.active {
           color: $primary-color;
         }
@@ -196,28 +197,26 @@
   background-position-y: -10%;
   background-position-x: -10%;
 
-  .store .slider-store-btn {
+  .slider-store-btn {
     right: 24%;
     top: 25px;
-    button {
-      &:hover {
-        padding: 8px 20px;
-      }
+  }
+
+  .store-bg-wrapper {
+    .frame-img {
+      max-width: 231px;
+      position: absolute;
+      top: 81px;
+      left: 115px;
     }
   }
 
-  .store-slider-wrapper {
-    transform: translate(-65%, 0);
-    bottom: 16px;
-    img {
-      width: 80%;
-    }
-  }
 }
 
 .contact-us {
-  form{
+  form {
     max-width: 370px;
+
     .contact-input {
       max-width: 100%;
       margin-bottom: 32px;
@@ -282,13 +281,15 @@
     max-width: 300px;
   }
 }
+
 @media (max-width: 1366px) {
-  .contact-us{
-    .custom-container-sm{
-      padding: 0 ;
+  .contact-us {
+    .custom-container-sm {
+      padding: 0;
     }
   }
 }
+
 @media (max-width: 992px) {
   .about-wrapper {
     .row {

@@ -1,94 +1,109 @@
 .navbar {
-  padding: 16px 0;
-  transition: all 0.3s ease;
-  left: 50%;
-  transform: translate(-50%, 0);
-  .toggler-btn {
-    .bar-icon {
-      width: 28px;
-      span {
-        height: 1px;
-        background-color: #fff;
-      }
-    }
-  }
+    padding: 16px 0;
+    transition: all 0.3s ease;
 
-  .offcanvas {
-    background-color: #696969;
-    height: 100vh !important;
-    .offcanvas-header {
-      .btn-close {
-        filter: invert(1);
-      }
-    }
-  }
-.middle-nav {
-  ul {
-    li {
-      a {
-        color: $text-color;
-        &.active {
-          color: $primary-color;
+    .toggler-btn {
+      .bar-icon {
+        max-width: 28px;
+
+        span {
+          height: 1px;
+          background-color: #fff;
         }
       }
     }
-  }
-}
-.contact-head {
-  .links {
-    a {
-      color: $text-color;
-      i{
-        font-size: 20px;
+
+    .offcanvas {
+      background-color: #696969;
+      height: 100vh !important;
+
+      .offcanvas-header {
+        .btn-close {
+          filter: invert(1);
+        }
       }
     }
-  }
 
-  .contact-wrapper {
-    .call-wrapper {
-      color: $text-color;
-      i{
-        font-size: 20px;
+    .middle-nav {
+      ul {
+        li {
+          a {
+            color: $text-color;
+
+            &.active {
+              color: $primary-color;
+            }
+          }
+        }
       }
-      .number {
+    }
+
+    .contact-head {
+      .links {
         a {
           color: $text-color;
+
+          i {
+            font-size: 20px;
+          }
+        }
+      }
+
+      .contact-wrapper {
+        .call-wrapper {
+          color: $text-color;
+
+          i {
+            font-size: 20px;
+          }
+
+          .number {
+            a {
+              color: $text-color;
+            }
+          }
         }
       }
     }
-  }
+
+    &.fixed {
+      background-color: #232323;
+      opacity: 1;
+      z-index: 999;
+      padding: 8px 0;
+    }
 }
-  &.fixed {
-    background-color: #232323;
-    opacity: 1;
-    z-index: 999;
-    padding: 8px 0;
-  }
-}
+
 @media (max-width: 992px) {
   .navbar {
     justify-content: space-between;
+
     .toggler-btn {
       display: flex !important;
     }
+
     button {
       color: $text-color;
       border: none;
+
       &:focus {
         outline: none;
         border: none;
         box-shadow: none;
       }
+
       span {
         filter: invert(1);
       }
     }
   }
 }
+
 @media (max-width: 576px) {
   .navbar .logo {
     max-width: 80%;
     display: block;
+
     img {
       max-width: 128px !important;
     }

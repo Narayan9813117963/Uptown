@@ -301,16 +301,14 @@ a {
   padding-top: 50px;
   background-position-y: -10%;
   background-position-x: -10%; }
-  .store-contact-us .store .slider-store-btn {
+  .store-contact-us .slider-store-btn {
     right: 24%;
     top: 25px; }
-    .store-contact-us .store .slider-store-btn button:hover {
-      padding: 8px 20px; }
-  .store-contact-us .store-slider-wrapper {
-    transform: translate(-65%, 0);
-    bottom: 16px; }
-    .store-contact-us .store-slider-wrapper img {
-      width: 80%; }
+  .store-contact-us .store-bg-wrapper .frame-img {
+    max-width: 231px;
+    position: absolute;
+    top: 81px;
+    left: 115px; }
 
 .contact-us form {
   max-width: 370px; }
@@ -394,11 +392,9 @@ a {
 
 .navbar {
   padding: 16px 0;
-  transition: all 0.3s ease;
-  left: 50%;
-  transform: translate(-50%, 0); }
+  transition: all 0.3s ease; }
   .navbar .toggler-btn .bar-icon {
-    width: 28px; }
+    max-width: 28px; }
     .navbar .toggler-btn .bar-icon span {
       height: 1px;
       background-color: #fff; }
