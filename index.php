@@ -453,11 +453,9 @@
                 distribution of letters,
             </p>
         </div>
-        <div class="ingred-img">
-            <figure class="w-100 m-auto">
-                <img src="images/ingredients.png" alt="ingredients">
-            </figure>
-        </div>
+        <figure class="w-100 m-auto ingred-img">
+            <img src="images/ingredients.png" alt="ingredients">
+        </figure>
     </div>
 </section>
 <section class="discover section-pad position-relative">

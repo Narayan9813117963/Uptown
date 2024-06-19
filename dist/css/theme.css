@@ -255,9 +255,8 @@ a {
     max-width: 80%;
     width: 100%; }
   .ingred .ingred-img {
-    margin-top: 30px; }
-    .ingred .ingred-img figure {
-      max-width: 60%; }
+    margin-top: 30px;
+    max-width: 60%; }
 
 .discover {
   background-image: url(../../images/about-img.jpg);
@@ -372,18 +371,9 @@ a {
 
 @media (max-width: 768px) {
   .ingred .ingred-img {
-    width: 100% !important; } }
+    max-width: unset; } }
 
 @media (max-width: 576px) {
-  .contact-bg1 img,
-  .contact-bg2 img {
-    width: 200px !important; }
-  .testiwrapper .head-text {
-    margin-bottom: 20px; }
-  .testiwrapper button {
-    padding: 5px 10px !important; }
-  .store-slider-wrapper {
-    bottom: -7px !important; }
   .slider-store-btn {
     top: 18px !important; }
     .slider-store-btn button {
