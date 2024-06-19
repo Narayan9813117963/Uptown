@@ -4,6 +4,7 @@
 
   .banner {
     padding-top: 232px;
+
     .banner-text {
       h1 {
         span {
@@ -26,15 +27,19 @@
     }
   }
 }
+
 .about-us {
   .about-wrapper {
     .row {
       background-color: $secondary-bg-color;
+
       .about-text {
         padding: 20px 60px;
+
         p {
           padding: 10px 0;
         }
+
         button {
           @include button-styles(none, none, $primary-color);
           display: flex;
@@ -60,6 +65,7 @@
 
         .service-icon {
           margin-bottom: 16px;
+
           figure {
             max-width: 72px;
             width: 100%;
@@ -155,6 +161,7 @@
 
   .ingred-img {
     margin-top: 30px;
+
     figure {
       max-width: 60%;
       width: 100%;
@@ -170,6 +177,7 @@
   background-size: 100%;
   position: relative;
   z-index: -1;
+
   &::after {
     content: "";
     position: absolute;
@@ -181,23 +189,27 @@
     z-index: -3;
   }
 }
+
 .testimonials {
   .testiwrapper {
     .head-text {
       margin-left: 0;
     }
+
     .slider-btn {
       gap: 20px;
     }
+
     .testi-slider-wrapper {
-      .testi-slider {
         .testi-card {
           i {
             color: $text-color;
           }
+
           .slider-1 {
             position: relative;
             padding: 30px;
+
             .testi-1 {
               background-color: $secondary-bg-color;
               padding: 20px;
@@ -215,13 +227,14 @@
             }
           }
         }
+
         .slick-dots {
           display: none !important;
         }
       }
     }
   }
-}
+
 .store-contact-us {
   position: relative;
   background-image: url(../../images/veg-bg.png);
@@ -230,31 +243,37 @@
   padding-top: 50px;
   background-position-y: -10%;
   background-position-x: -10%;
+
   .store {
     .store-bg-wrapper {
       position: relative;
     }
+
     .slider-store-btn {
       position: absolute;
       right: 158px;
       top: 25px;
       gap: 20px;
+
       button {
         &:hover {
           padding: 8px 20px;
         }
       }
     }
+
     .store-slider-wrapper {
       position: absolute;
       left: 50%;
       bottom: 16px;
       transform: translate(-65%, 0);
+
       img {
         width: 80%;
       }
     }
   }
+
   .contact-us {
     .form-wrapper {
       .contact-input {
@@ -264,11 +283,13 @@
         width: 100%;
         margin-bottom: 32px;
         position: relative;
-        span {
+
+        label {
           color: $primary-color;
           margin-left: 10px;
           margin-bottom: 8px;
         }
+
         input,
         textarea {
           padding: 10px 20px;
@@ -277,91 +298,111 @@
           border: 1px solid #a1a1a1;
           color: $text-color;
           resize: none;
+
           &::placeholder {
             color: $text-color;
           }
+
           &:focus {
             border: 1px solid #a1a1a1;
             outline: none;
           }
         }
+
         textarea {
           height: 150px;
         }
+
         a {
           position: absolute;
           bottom: 0;
           right: 0;
           padding: 8px;
           background-color: $primary-color;
+
           img {
             width: 25px;
           }
         }
       }
     }
+
     .head-text {
       margin-left: 0;
     }
+
     .contact-wrapper {
       display: flex;
       flex-direction: column;
       gap: 36px;
+
       .contact-details {
         display: flex;
         flex-direction: column;
       }
+
       span {
         color: $primary-color;
       }
     }
   }
+
   .contact-bg1 {
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: -1;
+
     img {
       max-width: 300px;
     }
   }
+
   .contact-bg2 {
     position: absolute;
     left: 0;
     top: 50%;
     transform: translate(0, -65%);
     z-index: -1;
+
     img {
       max-width: 300px;
     }
   }
 }
+
 @media (max-width: 992px) {
   .about-wrapper {
     .row {
       background: none !important;
+
       .about-us-text-wrapper {
         background-color: $secondary-bg-color;
       }
     }
+
     .about-text {
       padding: 30px !important;
     }
   }
+
   .service-wrapper .service {
     padding-bottom: 30px !important;
   }
+
   .dishes {
     .dish-content {
       padding-bottom: 20px;
     }
   }
+
   .store {
     .store-bg-wrapper {
       margin-top: 30px;
     }
   }
 }
+
 @media (max-width: 768px) {
   .ingred {
     .ingred-img {
@@ -369,7 +410,9 @@
     }
   }
 }
+
 @media (max-width: 576px) {
+
   .contact-bg1 img,
   .contact-bg2 img {
     width: 200px !important;

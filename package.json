@@ -14,7 +14,7 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build-css": "node-sass src/scss/theme.scss -o dist/css/ && node-sass src/scss/vendor.scss -o dist/css/",
-		"watch-css": "nodemon -e scss -x \"npm run build-css\""	 
+		"watch-css": "nodemon -e scss -x \"npm run build-css\""
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.13",
@@ -33,6 +33,6 @@
 	},
 	"private": true,
 	"dependencies": {
-		"node-sass": "^9.0.0"
+		"node-sass": "^9.0.0",
+		"nodemon": "^3.1.3"
 	}
-}
