@@ -25,14 +25,13 @@
 }
 
 .about-us {
-  .about-wrapper {
     .row {
       background-color: $secondary-bg-color;
 
       .about-text {
         padding: 20px 60px;
 
-        button {
+        a {
           @include button-styles(none, none, $primary-color);
           display: flex;
           align-items: center;
@@ -41,13 +40,10 @@
         }
       }
     }
-  }
 }
 
 .why-choose {
   .why-choose-wrapper {
-    text-align: center;
-
     .service-wrapper {
       .service {
         .service-icon {
@@ -125,7 +121,8 @@
   }
 
   .ingred-head {
-    width: 80%;
+    max-width: 80%;
+    width: 100%;
   }
 
   .ingred-img {
@@ -177,7 +174,6 @@
           }
 
           .card-bg {
-            left: 0;
             bottom: 10px;
             z-index: -1;
           }
@@ -219,9 +215,10 @@
 }
 
 .contact-us {
-  .form-wrapper {
+  form{
+    max-width: 370px;
     .contact-input {
-      max-width: 370px;
+      max-width: 100%;
       margin-bottom: 32px;
 
       label {
@@ -284,7 +281,13 @@
     max-width: 300px;
   }
 }
-
+@media (max-width: 1366px) {
+  .contact-us{
+    .custom-container-sm{
+      padding: 0 ;
+    }
+  }
+}
 @media (max-width: 992px) {
   .about-wrapper {
     .row {

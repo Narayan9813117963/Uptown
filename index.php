@@ -28,7 +28,6 @@
    <div class="container">
       <div class="custom-container-sm">
          <div class="about-us section-pad">
-            <div class="about-wrapper">
                <div class="container">
                   <div class="row">
                      <div class="col-lg-6">
@@ -40,22 +39,21 @@
                         <div class="about-us-text-wrapper d-flex align-items-center ">
                            <div class="about-text">
                               <h2>About us</h2>
-                              <p class="px-3">The cozy Uptown restaurant is renowned for its traditional cuisine. we are
+                              <p>The cozy Uptown restaurant is renowned for its traditional cuisine. we are
                                  delighted to welcome our guests and exceed all your expectations.
                               </p>
                               <p>We are waiting for you every day, from 9:00 to 21:00.</p>
-                              <a href="#">Learn more <i class="bi bi-arrow-right"></i></a>
+                              <a class="mt-2" href="#">Learn more <i class="bi bi-arrow-right"></i></a>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
-            </div>
          </div>
          <div class="why-choose">
             <div class="container">
                <div class="why-choose-wrapper ">
-                  <div class="head-text">
+                  <div class="text-center">
                      <h2>Why choose us?</h2>
                      <p>Over the million of peoples are happy with us</p>
                   </div>
@@ -69,7 +67,7 @@
                                  </figure>
                               </div>
                               <h3>Fresh food</h3>
-                              <p>We serve the best and fresh quality food</p>
+                              <p class="text-center">We serve the best and fresh quality food</p>
                            </div>
                         </div>
                         <div class="col-md-4">
@@ -81,7 +79,7 @@
                                  </figure>
                               </div>
                               <h3>Best offer</h3>
-                              <p>We give the best offer for our valuable customers</p>
+                              <p class="text-center">We give the best offer for our valuable customers</p>
                            </div>
                         </div>
                         <div class="col-md-4">
@@ -93,7 +91,7 @@
                                  </figure>
                               </div>
                               <h3>Fast delivery food</h3>
-                              <p>We have delivery van to fast delivery</p>
+                              <p class="text-center">We have delivery van to fast delivery</p>
                            </div>
                         </div>
                      </div>
@@ -106,7 +104,7 @@
 </section>
 <section class="dishes section-top-pad">
    <div class="container">
-   <div class="head-text">
+   <div class="text-center">
       <h2>You may like our one of our dishes:</h2>
    </div>
    <div class="dish-categories">
@@ -447,8 +445,7 @@
 </section>
 <section class="ingred section-pad">
    <div class="container">
-      <div class="custom-container-sm">
-         <div class="ingred-head head-text">
+         <div class="ingred-head text-center mx-auto">
             <h2>The best ingredients</h2>
             <p class="pt-2">It is a long established fact that a reader will be distracted by the readable content
                of a page when looking at its layout. The point of using . is that it has a more-or-less normal
@@ -460,13 +457,12 @@
                <img src="images/ingredients.png" alt="ingredients">
             </figure>
          </div>
-      </div>
    </div>
 </section>
 <section class="discover section-pad position-relative">
    <div class="container">
       <div class="custom-container-sm">
-         <div class="head-text">
+         <div class="text-center">
             <h2>Discover</h2>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when
                looking at its layout. The point of using Experience our shrimp and avocado salad with crisp greens
@@ -481,7 +477,7 @@
       <div class="container">
          <div class="row">
             <div class="col-lg-6">
-               <div class="head-text text-align-left ">
+               <div class="mb-3 ">
                   <h2>What peoples say about us</h2>
                   <p>It is a long established fact that a reader will be distracted by the readable content of a
                      page when looking at its layout. 
@@ -514,7 +510,7 @@
                            the readable content of a page when looking at its layout. 
                         </p>
                      </div>
-                     <div class="card-bg position-absolute">
+                     <div class="card-bg start-0 position-absolute">
                         <figure>
                            <img src="images/testi-card-bg.svg" alt="testi-card-bg">
                         </figure>
@@ -538,7 +534,7 @@
                            the readable content of a page when looking at its layout. 
                         </p>
                      </div>
-                     <div class="card-bg position-absolute">
+                     <div class="card-bg start-0 position-absolute">
                         <figure>
                            <img src="images/testi-card-bg.svg" alt="testi-card-bg">
                         </figure>
@@ -562,7 +558,7 @@
                            the readable content of a page when looking at its layout. 
                         </p>
                      </div>
-                     <div class="card-bg position-absolute">
+                     <div class="card-bg start-0 position-absolute">
                         <figure>
                            <img src="images/testi-card-bg.svg" alt="testi-card-bg">
                         </figure>
@@ -586,7 +582,7 @@
                            the readable content of a page when looking at its layout. 
                         </p>
                      </div>
-                     <div class="card-bg position-absolute">
+                     <div class="card-bg start-0 position-absolute">
                         <figure>
                            <img src="images/testi-card-bg.svg" alt="testi-card-bg">
                         </figure>
@@ -610,7 +606,7 @@
                            the readable content of a page when looking at its layout. 
                         </p>
                      </div>
-                     <div class="card-bg position-absolute">
+                     <div class="card-bg start-0 position-absolute">
                         <figure>
                            <img src="images/testi-card-bg.svg" alt="testi-card-bg">
                         </figure>
@@ -634,7 +630,7 @@
                            the readable content of a page when looking at its layout. 
                         </p>
                      </div>
-                     <div class="card-bg position-absolute  ">
+                     <div class="card-bg start-0 position-absolute  ">
                         <figure>
                            <img src="images/testi-card-bg.svg" alt="testi-card-bg">
                         </figure>
@@ -646,17 +642,17 @@
       </div>
    </div>
 </section>
-<section class="store-contact-us position-relative">
+<section class="store-contact-us position-relative"> 
    <div class="store">
       <div class="container">
          <div class="row">
             <div class="col-lg-6">
-               <div class="head-text text-align-left">
+               <div class="">
                   <h2>Uptown Store</h2>
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a
+                  <p class="mt-3">It is a long established fact that a reader will be distracted by the readable content of a
                      page when looking at its layout. The point of using Lorem Ipsum
                   </p>
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a
+                  <p class="mb-5">It is a long established fact that a reader will be distracted by the readable content of a
                      page when looking at its layout. The point of using Lorem Ipsum
                   </p>
                   <a href="#" class="button-1 mt-5">Our menu</a>
@@ -692,7 +688,6 @@
          <div class="custom-container-sm">
             <div class="row">
                <div class="col-lg-7">
-                  <div class="form-wrapper">
                      <form action="submit">
                         <div class="contact-input  d-flex flex-column">
                            <label class="ms-3 mb-2" for="name">Enter your name</label>
@@ -716,10 +711,9 @@
                            </div>
                         </div>
                      </form>
-                  </div>
                </div>
                <div class="col-lg-5">
-                  <div class="head-text ms-0 text-align-left p-0 mt-5">
+                  <div class="ms-0 p-0 mt-5">
                      <h2>Contact us:</h2>
                   </div>
                   <div class="contact-wrapper flex-column d-flex gap-5 ">

@@ -167,18 +167,6 @@ a {
 .section-bottom-pad {
   padding-bottom: 100px; }
 
-.head-text {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 0 50px; }
-
-.text-align-left {
-  text-align: start;
-  align-items: start; }
-
 @media (max-width: 992px) {
   .custom-container-sm {
     padding: unset !important; }
@@ -208,11 +196,11 @@ a {
       padding-right: 8px;
       color: #c08f43; }
 
-.about-us .about-wrapper .row {
+.about-us .row {
   background-color: #232227; }
-  .about-us .about-wrapper .row .about-text {
+  .about-us .row .about-text {
     padding: 20px 60px; }
-    .about-us .about-wrapper .row .about-text button {
+    .about-us .row .about-text a {
       background: none;
       border: 1px solid none;
       color: #c08f43;
@@ -223,10 +211,8 @@ a {
       gap: 10px;
       padding: 0; }
 
-.why-choose .why-choose-wrapper {
-  text-align: center; }
-  .why-choose .why-choose-wrapper .service-wrapper .service .service-icon figure {
-    max-width: 72px; }
+.why-choose .why-choose-wrapper .service-wrapper .service .service-icon figure {
+  max-width: 72px; }
 
 .dishes {
   background-image: url(../../images/veg-bg.png);
@@ -265,7 +251,8 @@ a {
     flex-direction: column;
     align-items: center; }
   .ingred .ingred-head {
-    width: 80%; }
+    max-width: 80%;
+    width: 100%; }
   .ingred .ingred-img {
     margin-top: 30px; }
     .ingred .ingred-img figure {
@@ -300,7 +287,6 @@ a {
     background-position: right bottom;
     background-repeat: no-repeat; }
   .testimonials .testiwrapper .testi-slider-wrapper .testi-card .slider-1 .card-bg {
-    left: 0;
     bottom: 10px;
     z-index: -1; }
 
@@ -325,32 +311,34 @@ a {
     .store-contact-us .store-slider-wrapper img {
       width: 80%; }
 
-.contact-us .form-wrapper .contact-input {
-  max-width: 370px;
-  margin-bottom: 32px; }
-  .contact-us .form-wrapper .contact-input label {
-    color: #c08f43; }
-  .contact-us .form-wrapper .contact-input input,
-  .contact-us .form-wrapper .contact-input textarea {
-    padding: 10px 20px;
-    padding: 10px 20px;
-    background: none;
-    border: 1px solid #a1a1a1;
-    color: #fff;
-    resize: none; }
-    .contact-us .form-wrapper .contact-input input::placeholder,
-    .contact-us .form-wrapper .contact-input textarea::placeholder {
-      color: #fff; }
-    .contact-us .form-wrapper .contact-input input:focus,
-    .contact-us .form-wrapper .contact-input textarea:focus {
+.contact-us form {
+  max-width: 370px; }
+  .contact-us form .contact-input {
+    max-width: 100%;
+    margin-bottom: 32px; }
+    .contact-us form .contact-input label {
+      color: #c08f43; }
+    .contact-us form .contact-input input,
+    .contact-us form .contact-input textarea {
+      padding: 10px 20px;
+      padding: 10px 20px;
+      background: none;
       border: 1px solid #a1a1a1;
-      outline: none; }
-  .contact-us .form-wrapper .contact-input textarea {
-    height: 150px; }
-  .contact-us .form-wrapper .contact-input a {
-    background-color: #c08f43; }
-    .contact-us .form-wrapper .contact-input a img {
-      width: 25px; }
+      color: #fff;
+      resize: none; }
+      .contact-us form .contact-input input::placeholder,
+      .contact-us form .contact-input textarea::placeholder {
+        color: #fff; }
+      .contact-us form .contact-input input:focus,
+      .contact-us form .contact-input textarea:focus {
+        border: 1px solid #a1a1a1;
+        outline: none; }
+    .contact-us form .contact-input textarea {
+      height: 150px; }
+    .contact-us form .contact-input a {
+      background-color: #c08f43; }
+      .contact-us form .contact-input a img {
+        width: 25px; }
 
 .contact-us .contact-wrapper span {
   color: #c08f43; }
@@ -365,6 +353,10 @@ a {
   z-index: -1; }
   .contact-bg2 img {
     max-width: 300px; }
+
+@media (max-width: 1366px) {
+  .contact-us .custom-container-sm {
+    padding: 0; } }
 
 @media (max-width: 992px) {
   .about-wrapper .row {
