@@ -364,6 +364,8 @@ a {
     padding: 30px !important; }
   .service-wrapper .service {
     padding-bottom: 30px !important; }
+  .dishes .dish-head {
+    margin-bottom: 40px; }
   .dishes .dish-content {
     padding-bottom: 20px; }
   .store .store-bg-wrapper {
@@ -374,7 +376,7 @@ a {
     text-align: center; } }
 
 @media (max-width: 768px) {
-  .why-choose-wrapper .text-center {
+  .why-choose-wrapper .why-choose-head {
     margin-bottom: 40px; }
   .ingred .ingred-img {
     max-width: unset; }

@@ -53,7 +53,7 @@
             <div class="why-choose">
                 <div class="container">
                     <div class="why-choose-wrapper">
-                        <div class="text-center">
+                        <div class="text-center why-choose-head">
                             <h2>Why choose us?</h2>
                             <p>Over the million of peoples are happy with us</p>
                         </div>
@@ -104,7 +104,7 @@
 </section>
 <section class="dishes section-top-pad">
     <div class="container">
-        <div class="text-center">
+        <div class="text-center dish-head">
             <h2>You may like our one of our dishes</h2>
         </div>
         <div class="dish-categories">
@@ -659,7 +659,7 @@
                 <div class="col-lg-6">
                     <div class="store-text">
                         <h2>Uptown Store</h2>
-                        <p class="mt-3">It is a long established fact that a reader will be distracted by the readable
+                        <p class="mt-3 pb-3">It is a long established fact that a reader will be distracted by the readable
                             content of a
                             page when looking at its layout. The point of using Lorem Ipsum
                         </p>

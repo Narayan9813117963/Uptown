@@ -299,6 +299,9 @@
   }
 
   .dishes {
+    .dish-head{
+      margin-bottom: 40px;
+    }
     .dish-content {
       padding-bottom: 20px;
     }
@@ -319,7 +322,7 @@
 
 @media (max-width: 768px) {
   .why-choose-wrapper{
-    .text-center{
+    .why-choose-head{
       margin-bottom: 40px;
     }
   }
