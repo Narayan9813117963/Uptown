@@ -41,13 +41,13 @@
       justify-content: start !important;
     }
   }
+  .footer-links-wrapper{
+    row-gap: 20px;
+  }
 }
 @media (max-width: 576px) {
   .footer-links-wrapper{
     padding-left: 20px;
-    .footer-links{
-      padding-top: 10px;
-    }
   }
   
 }

@@ -487,7 +487,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="mb-3 ">
+                    <div class="mb-3 testi-text">
                         <h2>What peoples say about us</h2>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a
                             page when looking at its layout.
@@ -657,7 +657,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="">
+                    <div class="store-text">
                         <h2>Uptown Store</h2>
                         <p class="mt-3">It is a long established fact that a reader will be distracted by the readable
                             content of a
@@ -691,7 +691,7 @@
         <div class="container">
             <div class="custom-container-sm">
                 <div class="row">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 d-md-flex justify-content-md-center">
                         <form action="submit">
                             <div class="contact-input  d-flex flex-column">
                                 <label class="ms-3 mb-2" for="name">Enter your name</label>
