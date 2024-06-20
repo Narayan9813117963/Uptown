@@ -3,14 +3,14 @@
     transition: all 0.3s ease;
 
     .toggler-btn {
-      .bar-icon {
-        max-width: 28px;
-
-        span {
-          height: 1px;
-          background-color: #fff;
+        .bar-icon {
+        width: 28px;
+          span {
+            height: 1px;
+            background-color: #fff;
+          }
         }
-      }
+     
     }
 
     .offcanvas {
@@ -92,9 +92,6 @@
         box-shadow: none;
       }
 
-      span {
-        filter: invert(1);
-      }
     }
   }
 }
@@ -104,8 +101,5 @@
     max-width: 80%;
     display: block;
 
-    img {
-      max-width: 128px !important;
-    }
   }
 }

@@ -6,7 +6,7 @@
                <img src="images/logo.svg" alt="logo">
             </div>
             <div class="col">
-                <div class="row justify-content-end">
+                <div class="row justify-content-end footer-links-wrapper">
                 <div class=" col-12 col-md-6 col-lg-3">
                   <div class=" d-flex">
                      <div class="footer-links flex-column d-flex align-items-start w-100">

@@ -129,7 +129,7 @@
 
   .ingred-img {
     margin-top: 30px;
-      max-width: 60%;
+    max-width: 60%;
   }
 }
 
@@ -262,19 +262,14 @@
 
 .contact-bg1 {
   z-index: -1;
-
-  img {
-    max-width: 300px;
-  }
+  max-width: 300px;
 }
 
 .contact-bg2 {
   transform: translate(0, -65%);
   z-index: -1;
+  max-width: 300px;
 
-  img {
-    max-width: 300px;
-  }
 }
 
 @media (max-width: 1366px) {
@@ -320,12 +315,23 @@
 @media (max-width: 768px) {
   .ingred {
     .ingred-img {
-        max-width: unset;
+      max-width: unset;
     }
   }
+
+  .contact-us {
+    padding-top: 200px;
+  }
+
 }
 
 @media (max-width: 576px) {
+  .dishes {
+    .cat-links {
+      justify-content: space-between;
+
+    }
+  }
 
   .slider-store-btn {
     top: 18px !important;
@@ -333,5 +339,19 @@
     button {
       padding: 5px 10px;
     }
+  }
+  .contact-bg1, .contact-bg2{
+    max-width: 200px !important;
+  }
+  .about-text{
+    padding-left: 0 !important;
+  }
+  .contact-us {
+    form {
+      max-width: 100% !important;
+    }
+  }
+  .contact-bg1, .contact-bg2{
+    max-width: 200px !important;
   }
 }

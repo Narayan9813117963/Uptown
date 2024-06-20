@@ -341,15 +341,13 @@ a {
   color: #c08f43; }
 
 .contact-bg1 {
-  z-index: -1; }
-  .contact-bg1 img {
-    max-width: 300px; }
+  z-index: -1;
+  max-width: 300px; }
 
 .contact-bg2 {
   transform: translate(0, -65%);
-  z-index: -1; }
-  .contact-bg2 img {
-    max-width: 300px; }
+  z-index: -1;
+  max-width: 300px; }
 
 @media (max-width: 1366px) {
   .contact-us .custom-container-sm {
@@ -371,19 +369,31 @@ a {
 
 @media (max-width: 768px) {
   .ingred .ingred-img {
-    max-width: unset; } }
+    max-width: unset; }
+  .contact-us {
+    padding-top: 200px; } }
 
 @media (max-width: 576px) {
+  .dishes .cat-links {
+    justify-content: space-between; }
   .slider-store-btn {
     top: 18px !important; }
     .slider-store-btn button {
-      padding: 5px 10px; } }
+      padding: 5px 10px; }
+  .contact-bg1, .contact-bg2 {
+    max-width: 200px !important; }
+  .about-text {
+    padding-left: 0 !important; }
+  .contact-us form {
+    max-width: 100% !important; }
+  .contact-bg1, .contact-bg2 {
+    max-width: 200px !important; } }
 
 .navbar {
   padding: 16px 0;
   transition: all 0.3s ease; }
   .navbar .toggler-btn .bar-icon {
-    max-width: 28px; }
+    width: 28px; }
     .navbar .toggler-btn .bar-icon span {
       height: 1px;
       background-color: #fff; }
@@ -423,16 +433,12 @@ a {
       .navbar button:focus {
         outline: none;
         border: none;
-        box-shadow: none; }
-      .navbar button span {
-        filter: invert(1); } }
+        box-shadow: none; } }
 
 @media (max-width: 576px) {
   .navbar .logo {
     max-width: 80%;
-    display: block; }
-    .navbar .logo img {
-      max-width: 128px !important; } }
+    display: block; } }
 
 .footer-wrapper {
   padding: 40px 0; }
@@ -458,3 +464,9 @@ a {
     margin-top: 20px; }
   footer .footer-social {
     justify-content: start !important; } }
+
+@media (max-width: 576px) {
+  .footer-links-wrapper {
+    padding-left: 20px; }
+    .footer-links-wrapper .footer-links {
+      padding-top: 10px; } }
