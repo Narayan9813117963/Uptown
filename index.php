@@ -16,7 +16,7 @@
                     </div>
                     <div class="col-lg-6">
                         <figure>
-                            <img src="images/hero-image.png" width="100%" alt="hero-image">
+                            <img src="images/banner-image.png" width="100%" alt="banner-image">
                         </figure>
                     </div>
                 </div>
@@ -123,9 +123,10 @@
                             </figure>
                         </div>
                         <div class="dish-detail">
-                            <div class="dish-star-name d-flex justify-content-between align-items-end">
-                                <div class="dish-name">
-                                    <h4>See the menu</h4>
+                            <div class="dish-name-wrapper">
+                            <h4>See the menu</h4>
+
+                                <div class="dish-star-price d-flex justify-content-between">
                                     <div class="star-wrapper">
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
@@ -133,8 +134,8 @@
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                     </div>
-                                </div>
                                 <span>$7.66</span>
+                                </div>
                             </div>
                             <p>Experience our shrimp and avocado salad with crisp greens and tangy lime vinaigrette.</p>
                         </div>
@@ -148,10 +149,10 @@
                             </figure>
                         </div>
                         <div class="dish-detail">
-                            <div
-                                class="dish-star-name d-flex justify-content-between align-items-end d-flex justify-content-between align-items-end">
-                                <div class="dish-name">
-                                    <h4>See the menu</h4>
+                            <div class="dish-name-wrapper">
+                            <h4>See the menu</h4>
+
+                                <div class="dish-star-price d-flex justify-content-between">
                                     <div class="star-wrapper">
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
@@ -159,8 +160,8 @@
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                     </div>
-                                </div>
                                 <span>$7.66</span>
+                                </div>
                             </div>
                             <p>Experience our shrimp and avocado salad with crisp greens and tangy lime vinaigrette.</p>
                         </div>
@@ -174,9 +175,10 @@
                             </figure>
                         </div>
                         <div class="dish-detail">
-                            <div class="dish-star-name d-flex justify-content-between align-items-end">
-                                <div class="dish-name">
-                                    <h4>See the menu</h4>
+                            <div class="dish-name-wrapper">
+                            <h4>See the menu</h4>
+
+                                <div class="dish-star-price d-flex justify-content-between">
                                     <div class="star-wrapper">
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
@@ -184,10 +186,10 @@
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                     </div>
-                                </div>
                                 <span>$7.66</span>
+                                </div>
                             </div>
-                            <p>Indulge in our slow-cooked beef stew with root vegetables and fragrant herbs.</p>
+                            <p>Experience our shrimp and avocado salad with crisp greens and tangy lime vinaigrette.</p>
                         </div>
                     </div>
                 </div>
@@ -199,9 +201,10 @@
                             </figure>
                         </div>
                         <div class="dish-detail">
-                            <div class="dish-star-name d-flex justify-content-between align-items-end">
-                                <div class="dish-name">
-                                    <h4>See the menu</h4>
+                            <div class="dish-name-wrapper">
+                            <h4>See the menu</h4>
+
+                                <div class="dish-star-price d-flex justify-content-between">
                                     <div class="star-wrapper">
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
@@ -209,10 +212,10 @@
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                     </div>
-                                </div>
                                 <span>$7.66</span>
+                                </div>
                             </div>
-                            <p>Savor our creamy Alfredo pasta with grilled chicken, Parmesan, garlic, and parsley</p>
+                            <p>Experience our shrimp and avocado salad with crisp greens and tangy lime vinaigrette.</p>
                         </div>
                     </div>
                 </div>
@@ -224,9 +227,10 @@
                             </figure>
                         </div>
                         <div class="dish-detail">
-                            <div class="dish-star-name d-flex justify-content-between align-items-end">
-                                <div class="dish-name">
-                                    <h4>See the menu</h4>
+                            <div class="dish-name-wrapper">
+                            <h4>See the menu</h4>
+
+                                <div class="dish-star-price d-flex justify-content-between">
                                     <div class="star-wrapper">
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
@@ -234,8 +238,8 @@
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                     </div>
-                                </div>
                                 <span>$7.66</span>
+                                </div>
                             </div>
                             <p>Experience our shrimp and avocado salad with crisp greens and tangy lime vinaigrette.</p>
                         </div>
@@ -249,9 +253,10 @@
                             </figure>
                         </div>
                         <div class="dish-detail">
-                            <div class="dish-star-name d-flex justify-content-between align-items-end">
-                                <div class="dish-name">
-                                    <h4>See the menu</h4>
+                            <div class="dish-name-wrapper">
+                            <h4>See the menu</h4>
+
+                                <div class="dish-star-price d-flex justify-content-between">
                                     <div class="star-wrapper">
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
@@ -259,10 +264,10 @@
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                     </div>
-                                </div>
                                 <span>$7.66</span>
+                                </div>
                             </div>
-                            <p>Savor our creamy Alfredo pasta with grilled chicken, Parmesan, garlic, and parsley</p>
+                            <p>Experience our shrimp and avocado salad with crisp greens and tangy lime vinaigrette.</p>
                         </div>
                     </div>
                 </div>
@@ -274,9 +279,10 @@
                             </figure>
                         </div>
                         <div class="dish-detail">
-                            <div class="dish-star-name d-flex justify-content-between align-items-end">
-                                <div class="dish-name">
-                                    <h4>See the menu</h4>
+                            <div class="dish-name-wrapper">
+                            <h4>See the menu</h4>
+
+                                <div class="dish-star-price d-flex justify-content-between">
                                     <div class="star-wrapper">
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
@@ -284,10 +290,10 @@
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                     </div>
-                                </div>
                                 <span>$7.66</span>
+                                </div>
                             </div>
-                            <p>Indulge in our slow-cooked beef stew with root vegetables and fragrant herbs.</p>
+                            <p>Experience our shrimp and avocado salad with crisp greens and tangy lime vinaigrette.</p>
                         </div>
                     </div>
                 </div>
@@ -299,9 +305,10 @@
                             </figure>
                         </div>
                         <div class="dish-detail">
-                            <div class="dish-star-name d-flex justify-content-between align-items-end">
-                                <div class="dish-name">
-                                    <h4>See the menu</h4>
+                            <div class="dish-name-wrapper">
+                            <h4>See the menu</h4>
+
+                                <div class="dish-star-price d-flex justify-content-between">
                                     <div class="star-wrapper">
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
@@ -309,8 +316,8 @@
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                     </div>
-                                </div>
                                 <span>$7.66</span>
+                                </div>
                             </div>
                             <p>Experience our shrimp and avocado salad with crisp greens and tangy lime vinaigrette.</p>
                         </div>
@@ -324,9 +331,10 @@
                             </figure>
                         </div>
                         <div class="dish-detail">
-                            <div class="dish-star-name d-flex justify-content-between align-items-end">
-                                <div class="dish-name">
-                                    <h4>See the menu</h4>
+                            <div class="dish-name-wrapper">
+                            <h4>See the menu</h4>
+
+                                <div class="dish-star-price d-flex justify-content-between">
                                     <div class="star-wrapper">
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
@@ -334,10 +342,10 @@
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                     </div>
-                                </div>
                                 <span>$7.66</span>
+                                </div>
                             </div>
-                            <p>Savor our creamy Alfredo pasta with grilled chicken, Parmesan, garlic, and parsley</p>
+                            <p>Experience our shrimp and avocado salad with crisp greens and tangy lime vinaigrette.</p>
                         </div>
                     </div>
                 </div>
@@ -374,9 +382,10 @@
                             </figure>
                         </div>
                         <div class="dish-detail">
-                            <div class="dish-star-name d-flex justify-content-between align-items-end">
-                                <div class="dish-name">
-                                    <h4>See the menu</h4>
+                            <div class="dish-name-wrapper">
+                            <h4>See the menu</h4>
+
+                                <div class="dish-star-price d-flex justify-content-between">
                                     <div class="star-wrapper">
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
@@ -384,10 +393,10 @@
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                     </div>
-                                </div>
                                 <span>$7.66</span>
+                                </div>
                             </div>
-                            <p>Savor our creamy Alfredo pasta with grilled chicken, Parmesan, garlic, and parsley</p>
+                            <p>Experience our shrimp and avocado salad with crisp greens and tangy lime vinaigrette.</p>
                         </div>
                     </div>
                 </div>
@@ -399,9 +408,10 @@
                             </figure>
                         </div>
                         <div class="dish-detail">
-                            <div class="dish-star-name d-flex justify-content-between align-items-end">
-                                <div class="dish-name">
-                                    <h4>See the menu</h4>
+                            <div class="dish-name-wrapper">
+                            <h4>See the menu</h4>
+
+                                <div class="dish-star-price d-flex justify-content-between">
                                     <div class="star-wrapper">
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
@@ -409,8 +419,8 @@
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                     </div>
-                                </div>
                                 <span>$7.66</span>
+                                </div>
                             </div>
                             <p>Experience our shrimp and avocado salad with crisp greens and tangy lime vinaigrette.</p>
                         </div>
@@ -424,9 +434,10 @@
                             </figure>
                         </div>
                         <div class="dish-detail">
-                            <div class="dish-star-name d-flex justify-content-between align-items-end">
-                                <div class="dish-name">
-                                    <h4>See the menu</h4>
+                            <div class="dish-name-wrapper">
+                            <h4>See the menu</h4>
+
+                                <div class="dish-star-price d-flex justify-content-between">
                                     <div class="star-wrapper">
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
@@ -434,10 +445,10 @@
                                         <i class="bi bi-star"></i>
                                         <i class="bi bi-star"></i>
                                     </div>
-                                </div>
                                 <span>$7.66</span>
+                                </div>
                             </div>
-                            <p>Indulge in our slow-cooked beef stew with root vegetables and fragrant herbs.</p>
+                            <p>Experience our shrimp and avocado salad with crisp greens and tangy lime vinaigrette.</p>
                         </div>
                     </div>
                 </div>
