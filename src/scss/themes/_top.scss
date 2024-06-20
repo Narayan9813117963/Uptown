@@ -202,7 +202,8 @@
       max-width: 230px;
       position: absolute;
       top: 80px;
-      left: 36%;
+      left: 50%;
+      transform: translate(-60% , 0);
     }
   }
 
@@ -317,6 +318,11 @@
 }
 
 @media (max-width: 768px) {
+  .why-choose-wrapper{
+    .text-center{
+      margin-bottom: 40px;
+    }
+  }
   .ingred {
     .ingred-img {
       max-width: unset;

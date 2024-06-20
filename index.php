@@ -52,7 +52,7 @@
             </div>
             <div class="why-choose">
                 <div class="container">
-                    <div class="why-choose-wrapper ">
+                    <div class="why-choose-wrapper">
                         <div class="text-center">
                             <h2>Why choose us?</h2>
                             <p>Over the million of peoples are happy with us</p>
@@ -680,7 +680,7 @@
                             <button class="button-1  store-next-btn"><i class="bi bi-chevron-right"></i></button>
                         </div>
                         <figure class="frame-img position-absolute">
-                            <img src="images/store-coffee.png" alt="store-coffee">
+                            <img src="images/store-slider.png" alt="store-slider">
                         </figure>
                     </div>
                 </div>
