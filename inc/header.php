@@ -76,11 +76,11 @@
                             </div>
                             <div class="offcanvas-body">
                                 <div class="offcanvas-contents">
-                                    <ul class="d-flex gap-4 flex-column p-0">
-                                        <li class="d-flex justify-content-center"><a href="#">Home</a></li>
-                                        <li class="d-flex justify-content-center"><a href="#">About us</a></li>
-                                        <li class="d-flex justify-content-center"><a href="#">Menu</a></li>
-                                        <li class="d-flex justify-content-center"><a href="#">Contact us</a></li>
+                                    <ul class="d-flex flex-column p-0">
+                                        <li><a class="py-3  w-100 d-flex justify-content-center" href="#">Home</a></li>
+                                        <li><a class="py-3  w-100 d-flex justify-content-center" href="#">About us</a></li>
+                                        <li><a class="py-3  w-100 d-flex justify-content-center" href="#">Menu</a></li>
+                                        <li><a class="py-3  w-100 d-flex justify-content-center" href="#">Contact us</a></li>
                                     </ul>
                                 </div>
                             </div>
